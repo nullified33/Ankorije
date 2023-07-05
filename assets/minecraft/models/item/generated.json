@@ -1,0 +1,50 @@
+{
+	"credit": "Made by Danchi",
+    "parent": "builtin/generated",
+    "display": {
+        "ground": {
+            "rotation": [ 90, 0, 0 ],
+            "translation": [ 0, -2, 0],
+            "scale":[ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 13, 7],
+            "scale":[ 1, 1, 1]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 90, 0 ],
+            "translation": [ -0.5, 4, 1 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 1.13, -1, 1.13],
+            "scale": [ 1, 1, 1 ]
+        },
+		"gui": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, -1.5],
+            "scale": [ 2, 2, 2 ]
+        }
+    },
+	"elements": [
+        {   "from": [ 6, 0, 6 ],
+            "to": [ 10, 16, 10 ],
+            "faces": {
+                "down":  { "uv": [ 6, 6, 10, 10 ], "texture": "#texture", "cullface": "down" },
+                "up":    { "uv": [ 6, 6, 10, 10 ], "texture": "#texture", "cullface": "up" },
+                "north": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+                "south": { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+                "west":  { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" },
+                "east":  { "uv": [ 6, 0, 10, 16 ], "texture": "#texture" }
+            },
+            "__comment": "Center post"
+        }
+    ]
+}

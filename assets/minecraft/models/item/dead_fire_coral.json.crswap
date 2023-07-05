@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/dead_fire_coral",
+		"particle": "item/dead_fire_coral"
+	}
+}

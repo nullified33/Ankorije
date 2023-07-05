@@ -1,0 +1,13 @@
+{
+    "providers": [
+       {
+            "type": "bitmap",
+            "file": "diffsplashes:splash/minecraft.png",
+            "ascent": 256,
+            "height": 256,
+            "chars": [
+                "\uDBC1\uDE3A\uDBC1\uDE3B\uDBC1\uDE3C\uDBC1\uDE3D\uDBC1\uDE3E\uDBC1\uDE3F\uDBC1\uDE40"
+            ]
+       }
+   ]
+}
